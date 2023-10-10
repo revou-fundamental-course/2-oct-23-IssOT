@@ -31,7 +31,7 @@ input:focus {
 }
 
 button {
-    padding: 10px 20px;
+    padding: 8px 20px;
     font-size: 15px;
     font-weight: bold;
     text-align: center;
@@ -45,6 +45,8 @@ button {
 #input-button{
     display: flex;
     align-self: center;
+    gap: 5px;
+    margin-top: 5px;
 }
 
 button:hover{

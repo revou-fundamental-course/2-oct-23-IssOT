@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Kalkulator Suhu</title>
+    <script src="Js/index.js"></script>
 </head>
 <body>
     <header>
@@ -20,7 +21,24 @@
             <button>Reverse</button>
         </div>
         </section>
-        
+        <section class="input-section">
+            <label for="input-field">Farenheit</label>
+            <input id="input-field" type="number"  placeholder="0">
+            <div id="input-button">
+                <button>Konversi</button>
+                <button>Reset</button>
+                <button>Reverse</button>
+            </div>
+            </section>
+            <section class="input-section">
+                <label for="input-field">Kelvin</label>
+                <input id="input-field" type="number"  placeholder="0">
+                <div id="input-button">
+                    <button class="btn" value="" onclick="btnClick()">Konversi</button>
+                    <button class="btn" value="" onclick="btnClick()">Reverse</button>
+                    <button class="btn" value="" onclick="btnClick()">Reset</button>
+                </div>
+                </section>
     </main>
 </body>
 </html>
